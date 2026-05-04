@@ -1,6 +1,7 @@
 import Books from "@/components/books/Books";
 import Banner from "@/components/heroSection/Banner";
 import MemberShipPlan from "@/components/membership/MemberShipPlan";
+import OfferSection from "@/components/offerSection/OfferSection";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Banner/>
       <Books/>
       <MemberShipPlan/>
+      <OfferSection/>
     </div>
   );
 }

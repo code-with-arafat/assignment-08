@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "description": "A story about the choices that go into a life well lived and the many paths one could take.",
+    "category": "Fiction",
+    "available_quantity": 15,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaRyJ7GxGWlhqXyMXdDUbuj7DSShhvaw4G0Q&s"
+  },
+  {
+    "id": 2,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "description": "An easy and proven way to build good habits and break bad ones.",
+    "category": "Self-Help",
+    "available_quantity": 25,
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "description": "A lone astronaut must save the earth from disaster in this gripping sci-fi adventure.",
+    "category": "Sci-Fi",
+    "available_quantity": 8,
+    "image_url": "https://img.drz.lazcdn.com/static/bd/p/07f02cdfeb34aeb4634e91a8d54edaff.jpg_720x720q80.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "description": "A shocking psychological thriller about a woman's act of violence against her husband.",
+    "category": "Thriller",
+    "available_quantity": 12,
+    "image_url": "https://m.media-amazon.com/images/I/81L0FgdzG6L._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Educated",
+    "author": "Tara Westover",
+    "description": "A memoir about a young woman who leaves her survivalist family to pursue an education.",
+    "category": "Biography",
+    "available_quantity": 10,
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1506026635i/35133922.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "description": "A bold and subversive retelling of the goddess's story, full of magic and tragedy.",
+    "category": "Fantasy",
+    "available_quantity": 7,
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1508879575i/35959740.jpg"
+  },
+  {
+    "id": 7,
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "description": "Timeless lessons on wealth, greed, and happiness through the lens of human behavior.",
+    "category": "Finance",
+    "available_quantity": 20,
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1592541101i/54143986.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "description": "The epic story of a young man destined to lead a revolution on a desert planet.",
+    "category": "Sci-Fi",
+    "available_quantity": 5,
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "description": "A beautiful story of a girl living alone in the marsh and a murder mystery that follows.",
+    "category": "Mystery",
+    "available_quantity": 14,
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1582135294i/38362809.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "description": "An exploration of the two systems that drive the way we think and make decisions.",
+    "category": "Non-Fiction",
+    "available_quantity": 9,
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1317793965i/11468377.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "description": "A brief history of humankind, exploring how biology and history have defined us.",
+    "category": "History",
+    "available_quantity": 18,
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1590553447i/23692271.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Verity",
+    "author": "Colleen Hoover",
+    "description": "A struggling writer finds a dark, unfinished manuscript that reveals terrifying secrets.",
+    "category": "Thriller",
+    "available_quantity": 11,
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634158558i/41957126.jpg"
+  }
+]

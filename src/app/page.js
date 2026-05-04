@@ -1,5 +1,4 @@
 import Books from "@/components/books/Books";
-import Footer from "@/components/footer/Footer";
 import Banner from "@/components/heroSection/Banner";
 import MemberShipPlan from "@/components/membership/MemberShipPlan";
 import OfferSection from "@/components/offerSection/OfferSection";
@@ -12,7 +11,7 @@ export default function Home() {
       <Books/>
       <MemberShipPlan/>
       <OfferSection/>
-      <Footer/>
+      
     </div>
   );
 }

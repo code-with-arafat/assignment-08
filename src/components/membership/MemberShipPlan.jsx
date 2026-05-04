@@ -29,7 +29,7 @@ const MemberShipPlan = () => {
     ];
 
     return (
-        <div className="py-12 bg-base-200 px-4">
+        <div className="py-12 bg-base-200 px-4 mt-10">
             <h2 className="text-4xl font-bold text-center mb-12">Our Membership Plans</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 {plans.map((plan) => (

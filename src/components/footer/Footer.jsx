@@ -48,17 +48,17 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* ৪. সোশ্যাল মিডিয়া এবং নিউজলেটার */}
+                
                 <div>
                     <h3 className="text-lg font-semibold text-white mb-6">Stay Connected</h3>
                     <p className="text-xs mb-4 opacity-70 italic">নতুন বইয়ের আপডেট পেতে সাবস্ক্রাইব করুন।</p>
                     <div className="flex gap-4 text-2xl mb-6">
-                        <a href="#" className="hover:text-blue-500 transition-all"><FaFacebook /></a>
-                        <a href="#" className="hover:text-white transition-all"><FaGithub /></a>
-                        <a href="#" className="hover:text-blue-400 transition-all"><FaLinkedin /></a>
-                        <a href="#" className="hover:text-pink-500 transition-all"><FaInstagram /></a>
+                        <a href="https://www.facebook.com/arafatalways" className="hover:text-blue-500 transition-all"><FaFacebook /></a>
+                        <a href="https://github.com/code-with-arafat" className="hover:text-white transition-all"><FaGithub /></a>
+                        <a href="https://www.linkedin.com/in/arafat-always/" className="hover:text-blue-400 transition-all"><FaLinkedin /></a>
+                        <a href="https://www.instagram.com/arafat_always/" className="hover:text-pink-500 transition-all"><FaInstagram /></a>
                     </div>
-                    {/* একটি ছোট ইনপুট ফিল্ড (অপশনাল) */}
+                    
                     <div className="flex">
                         <input 
                             type="text" 

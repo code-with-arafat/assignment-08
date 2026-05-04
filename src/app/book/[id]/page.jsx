@@ -3,11 +3,9 @@ import Image from "next/image";
 const BookDetails = async ({ params }) => {
     const { id } = await params;
 
-    // আপনার JSON বা API থেকে ডেটা ফেচ করুন
     const res = await fetch(`http://localhost:3000/bookData.json`);
     const allBooks = await res.json();
 
-    // আইডি অনুযায়ী নির্দিষ্ট বইটি খুঁজে বের করা
     const book = allBooks.find((b) => b.id === parseInt(id));
 
     if (!book) {

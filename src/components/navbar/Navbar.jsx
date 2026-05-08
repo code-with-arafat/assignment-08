@@ -1,19 +1,25 @@
+"use client"
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import logo from '../../assets/logo.png'
+import { authClient } from '@/lib/auth-client';
+import { LuCircleUser } from 'react-icons/lu';
 
 const Navbar = () => {
+    const { data: session } = authClient.useSession()
+    const user = session?.user
+
     const links = (
         <>
-        
+
             <li><Link href="/">Home</Link></li>
             <li><Link href="/all-books">All Books</Link></li>
             <li><Link href="/profile">Profile</Link></li>
         </>
     )
     return (
-        
+
         <div className='bg-base-100 shadow-sm'>
             <div className="navbar mx-auto container">
                 <div className="navbar-start">
@@ -35,7 +41,7 @@ const Navbar = () => {
                             alt='logo'
                             className='bg-tr'
                         />
-                        
+
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -43,9 +49,28 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn btn-accent" >Login</a>
+
+
+                <div className="navbar-end gap-2">
+                    {user ? (
+                        <div className='flex items-center gap-2'>
+                            <h2>Hello,{user?.name}</h2>
+                            <Image className='rounded-full object-cover'
+                                height={60}
+                                width={60}
+                                alt='profile Image'
+                                src={user?.image}
+                            ></Image>
+
+                            <Link href="/login" className="btn btn-accent" onClick={async()=> await authClient.signOut()}>Log Out</Link>
+                        </div>) : (
+                        <div className="flex items-center gap-2">
+                            <span className='text-2xl'><LuCircleUser /></span>
+                            <Link href="/login" className="btn btn-accent" >LogIn</Link>
+                        </div>)}
+
                 </div>
+
             </div>
         </div>
     );

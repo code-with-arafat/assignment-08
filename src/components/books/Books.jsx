@@ -10,8 +10,7 @@ const bookDataFetch = async () => {
 const Books = async () => {
     const bookinfo = await bookDataFetch();
     const topBooks = bookinfo.slice(0,4)
-    console.log(bookinfo);
-    console.log(topBooks);
+    
     return (
         <div className='mt-8 mb-8'>
             <h2 className="text-4xl font-bold text-center mb-12">Featured Books</h2>

@@ -27,9 +27,9 @@ const BookDetails = async ({ params }) => {
                     <p className="text-xl text-gray-700">লেখক: <span className="font-semibold">{book.author}</span></p>
                     <div className="badge badge-secondary p-4">{book.category}</div>
                     <p className="text-lg leading-relaxed text-gray-600">
-                        {/* এখানে বইয়ের বর্ণনা থাকলে সেটা দেখাবেন */}
-                        
+                        {book.description}
                     </p>
+                    <p className="mt-2"><span className="font-bold">Available Quantity: </span>{book.available_quantity}</p>
                     <button className="btn btn-accent px-10">Add to Library</button>
                 </div>
             </div>

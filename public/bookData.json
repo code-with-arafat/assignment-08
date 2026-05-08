@@ -3,8 +3,8 @@
     "id": 1,
     "title": "The Midnight Library",
     "author": "Matt Haig",
-    "description": "A story about the choices that go into a life well lived and the many paths one could take.",
-    "category": "Fiction",
+    "description": "Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived.",
+    "category": "Story",
     "available_quantity": 15,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaRyJ7GxGWlhqXyMXdDUbuj7DSShhvaw4G0Q&s"
   },
@@ -12,8 +12,8 @@
     "id": 2,
     "title": "Atomic Habits",
     "author": "James Clear",
-    "description": "An easy and proven way to build good habits and break bad ones.",
-    "category": "Self-Help",
+    "description": "A transformational guide to using small changes to achieve remarkable results. Learn how to build good habits and break bad ones with tiny, consistent steps.",
+    "category": "Tech",
     "available_quantity": 25,
     "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg"
   },
@@ -21,8 +21,8 @@
     "id": 3,
     "title": "Project Hail Mary",
     "author": "Andy Weir",
-    "description": "A lone astronaut must save the earth from disaster in this gripping sci-fi adventure.",
-    "category": "Sci-Fi",
+    "description": "Ryland Grace is the sole survivor on a desperate, last-chance mission. If he fails, humanity and the earth itself will perish in this gripping sci-fi adventure.",
+    "category": "Science",
     "available_quantity": 8,
     "image_url": "https://img.drz.lazcdn.com/static/bd/p/07f02cdfeb34aeb4634e91a8d54edaff.jpg_720x720q80.jpg"
   },
@@ -30,8 +30,8 @@
     "id": 4,
     "title": "The Silent Patient",
     "author": "Alex Michaelides",
-    "description": "A shocking psychological thriller about a woman's act of violence against her husband.",
-    "category": "Thriller",
+    "description": "Alicia Berenson’s life is seemingly perfect until she shoots her husband five times in the face and then never speaks another word.",
+    "category": "Story",
     "available_quantity": 12,
     "image_url": "https://m.media-amazon.com/images/I/81L0FgdzG6L._AC_UF1000,1000_QL80_.jpg"
   },
@@ -39,8 +39,8 @@
     "id": 5,
     "title": "Educated",
     "author": "Tara Westover",
-    "description": "A memoir about a young woman who leaves her survivalist family to pursue an education.",
-    "category": "Biography",
+    "description": "Born to survivalists in the mountains of Idaho, Tara Westover strives for academic excellence while grappling with the violent world she left behind.",
+    "category": "Science",
     "available_quantity": 10,
     "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1506026635i/35133922.jpg"
   },
@@ -48,8 +48,8 @@
     "id": 6,
     "title": "Circe",
     "author": "Madeline Miller",
-    "description": "A bold and subversive retelling of the goddess's story, full of magic and tragedy.",
-    "category": "Fantasy",
+    "description": "In the house of Helios, god of the sun and mightiest of the Titans, a daughter is born. Circe is a strange child—not powerful, like her father, nor vicious like her mother.",
+    "category": "Story",
     "available_quantity": 7,
     "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1508879575i/35959740.jpg"
   },
@@ -57,17 +57,17 @@
     "id": 7,
     "title": "The Psychology of Money",
     "author": "Morgan Housel",
-    "description": "Timeless lessons on wealth, greed, and happiness through the lens of human behavior.",
-    "category": "Finance",
+    "description": "Doing well with money isn’t necessarily about what you know. It’s about how you behave. And behavior is hard to teach, even to really smart people.",
+    "category": "Tech",
     "available_quantity": 20,
-    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1592541101i/54143986.jpg"
+    "image_url": "https://img.drz.lazcdn.com/static/bd/p/e955495ae8259bba5c4cb2a2ee487c17.png_720x720q80.png"
   },
   {
     "id": 8,
     "title": "Dune",
     "author": "Frank Herbert",
-    "description": "The epic story of a young man destined to lead a revolution on a desert planet.",
-    "category": "Sci-Fi",
+    "description": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world.",
+    "category": "Science",
     "available_quantity": 5,
     "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg"
   },
@@ -75,17 +75,17 @@
     "id": 9,
     "title": "Where the Crawdads Sing",
     "author": "Delia Owens",
-    "description": "A beautiful story of a girl living alone in the marsh and a murder mystery that follows.",
-    "category": "Mystery",
+    "description": "For years, rumors of the 'Marsh Girl' have haunted Barkley Cove. Kya Clark is bare-footed and wild; unfit for polite society, until a murder happens.",
+    "category": "Story",
     "available_quantity": 14,
-    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1582135294i/38362809.jpg"
+    "image_url": "https://static-01.daraz.com.bd/p/8887c76f8d88a1d16f61588a07deb0f2.png"
   },
   {
     "id": 10,
     "title": "Thinking, Fast and Slow",
     "author": "Daniel Kahneman",
-    "description": "An exploration of the two systems that drive the way we think and make decisions.",
-    "category": "Non-Fiction",
+    "description": "Kahneman takes us on a groundbreaking tour of the mind and explains the two systems that drive the way we think.",
+    "category": "Tech",
     "available_quantity": 9,
     "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1317793965i/11468377.jpg"
   },
@@ -93,18 +93,18 @@
     "id": 11,
     "title": "Sapiens",
     "author": "Yuval Noah Harari",
-    "description": "A brief history of humankind, exploring how biology and history have defined us.",
-    "category": "History",
+    "description": "Dr. Harari spans the whole of human history, from the very first humans to walk the earth to the radical—and sometimes devastating—breakthroughs of our species.",
+    "category": "Science",
     "available_quantity": 18,
-    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1590553447i/23692271.jpg"
+    "image_url": "https://img.drz.lazcdn.com/static/bd/p/60eecf77dda97c0514a17c0b8d9e936b.jpg_720x720q80.jpg"
   },
   {
     "id": 12,
     "title": "Verity",
     "author": "Colleen Hoover",
-    "description": "A struggling writer finds a dark, unfinished manuscript that reveals terrifying secrets.",
-    "category": "Thriller",
+    "description": "Lowen Ashleigh is a struggling writer on the brink of financial ruin when she accepts the job offer of a lifetime.",
+    "category": "Story",
     "available_quantity": 11,
-    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634158558i/41957126.jpg"
+    "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2024/05/Colleen-Hoovers-Verity.jpg"
   }
 ]

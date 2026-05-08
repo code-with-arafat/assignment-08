@@ -1,14 +1,12 @@
 "use client";
-
-import React from 'react';
-import { FaFacebook, FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const Footer = () => {
     return (
         <footer className="bg-slate-900 text-slate-300 pt-16 pb-8 px-6 mt-20">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                 
-                {/* ১. ব্র্যান্ড এবং প্রজেক্টের লক্ষ্য */}
+                
                 <div className="space-y-4">
                     <h2 className="text-2xl font-bold text-white tracking-tight">
                         Book <span className="text-purple-500">Flow</span>
@@ -18,7 +16,7 @@ const Footer = () => {
                     </p>
                 </div>
 
-                {/* ২. বইয়ের ক্যাটাগরি (বুক ফ্লো স্পেশাল) */}
+                
                 <div>
                     <h3 className="text-lg font-semibold text-white mb-6">Explore Genres</h3>
                     <ul className="space-y-3 text-sm">
@@ -29,7 +27,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* ৩. কন্টাক্ট এবং লোকেশন (রাজশাহী ভিত্তিক) */}
+                
                 <div>
                     <h3 className="text-lg font-semibold text-white mb-6">Visit Us</h3>
                     <ul className="space-y-4 text-sm">

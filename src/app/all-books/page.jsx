@@ -1,13 +1,9 @@
 import BookCard from "@/components/books/BooksCard";
+import allBooks from "../../../public/bookData.json";
 
 
 const AllBooksPage = async () => {
     
-    const res = await fetch(`http://localhost:3000/bookData.json`, {
-        cache: 'no-store'
-    });
-    const allBooks = await res.json();
-
     return (
         <div className="max-w-7xl mx-auto py-12 px-6">
             <div className="text-center mb-12">

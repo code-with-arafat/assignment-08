@@ -1,10 +1,10 @@
+import allBooks from "../../../../public/bookData.json";
 import Image from "next/image";
 
 const BookDetails = async ({ params }) => {
     const { id } = await params;
 
-    const res = await fetch(`http://localhost:3000/bookData.json`);
-    const allBooks = await res.json();
+    
 
     const book = allBooks.find((b) => b.id === parseInt(id));
 

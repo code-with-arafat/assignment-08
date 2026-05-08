@@ -1,15 +1,11 @@
 import React from 'react';
 import BookCard from './BooksCard';
+import allBooks from "../../../public/bookData.json";
 
-const bookDataFetch = async () => {
-    const bookData = await fetch("http://localhost:3000/bookData.json")
-    const booksData = await bookData.json()
-    return booksData ;
-}
+
 
 const Books = async () => {
-    const bookinfo = await bookDataFetch();
-    const topBooks = bookinfo.slice(0,4)
+    const topBooks = allBooks.slice(0,4)
     
     return (
         <div className='mt-8 mb-8'>

@@ -3,6 +3,7 @@ import Banner from "@/components/heroSection/Banner";
 import MarqueeLine from "@/components/marquee/MarqueeLine";
 import MemberShipPlan from "@/components/membership/MemberShipPlan";
 import OfferSection from "@/components/offerSection/OfferSection";
+import Slider from "@/components/slider/Slider";
 import Image from "next/image";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Banner/>
       <Books/>
       <MemberShipPlan/>
+      <Slider/>
       <OfferSection/>
       
     </div>
